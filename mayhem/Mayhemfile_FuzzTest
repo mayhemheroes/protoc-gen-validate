@@ -1,0 +1,5 @@
+project: protoc-gen-validate
+target: FuzzTest
+cmds:
+  - cmd: /mayhem/FuzzTest
+    libfuzzer: true
